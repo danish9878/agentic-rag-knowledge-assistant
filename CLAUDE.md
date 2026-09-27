@@ -51,7 +51,7 @@ context before answering, via tool-calling.
   hardcode. `.env` is gitignored; keep `.env.example` in sync.
 - API docs: Swagger/OpenAPI auto-generated.
 - Commits: Conventional Commits (feat, fix, chore, docs, refactor, test, ci).
-- Formatting/linting: ESLint + Prettier; enforced via Husky + lint-staged pre-commit
+- Formatting/linting: oxlint + Prettier; enforced via Husky + lint-staged pre-commit
   and commitlint on commit messages.
 - No em dashes in generated content.
 
