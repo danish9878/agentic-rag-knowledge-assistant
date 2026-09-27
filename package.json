@@ -1,10 +1,10 @@
 {
   "name": "agentic-rag-knowledge-assistant",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "Agentic RAG backend for chatting with your documents. Grounded, cited answers with a Claude-powered agent. Built with NestJS and TypeScript.",
+  "author": "Mohammed Danish Shah <danish.shah9878@gmail.com>",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "build": "nest build",
     "deploy": "nest deploy",
