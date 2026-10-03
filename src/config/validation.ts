@@ -16,4 +16,6 @@ export const validationSchema = Joi.object({
   REDIS_PORT: Joi.number().default(6379),
 
   QDRANT_URL: Joi.string().uri().default('http://localhost:6333'),
+
+  ANTHROPIC_API_KEY: Joi.string().required(),
 });
